@@ -18,7 +18,8 @@ public class Process {
         this.burstTime = burstTime;
         this.priority = priority;
 
-        this.remainingTime = arrivalTime - burstTime;
+        this.remainingTime = burstTime;
+
     }
     public String getPid() {
         return pid;
